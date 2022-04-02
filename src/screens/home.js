@@ -3,12 +3,13 @@ import styled from 'styled-components';
 import {Text, View} from 'react-native';
 
 import Counter from '../components/counter';
+import Trombi from '../components/trombi';
 
 const Home = ({navigation}) => {
-  console.log('Je suis dans Home');
   return (
     <ViewContainer>
-      <Counter />
+      {/* <Counter /> */}
+      <Trombi />
     </ViewContainer>
   );
 };
